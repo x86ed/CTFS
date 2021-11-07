@@ -1,0 +1,9 @@
+Aug  3 07:18:01 kali kernel: [ 7364.305849] usb 1-1: new high-speed USB device number 5 using ehci-pci
+Aug  3 07:18:01 kali kernel: [ 7364.305850] usb 1-1: New USB device found, idVendor=3993, idProduct=9324
+Aug  3 07:18:01 kali kernel: [ 7364.305851] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Aug  3 07:18:01 kali kernel: [ 7364.305852] usb 1-1: Product: 1F8ADAEE73D993944FC7C7783
+Aug  3 07:18:01 kali kernel: [ 7364.305853] usb 1-1: Manufacturer: 884CCC9A3DF08F49C621373E
+Aug  3 07:18:01 kali kernel: [ 7364.305854] usb 1-1: SerialNumber: 71DF5A33EFFDEA5B1882C9FBDC1240C6 
+Aug  3 07:18:01 kali kernel: [ 7364.305855] usb-storage 1-1:1.0: USB Mass Storage device detected
+Aug  3 07:18:01 kali kernel: [ 7364.305856] scsi host3: usb-storage 1-1:1.0
+Aug  3 07:18:10 kali kernel: [ 7364.305857] usb 1-1: USB disconnect, device number 5
